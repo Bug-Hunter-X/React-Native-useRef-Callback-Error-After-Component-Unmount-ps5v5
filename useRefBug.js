@@ -1,0 +1,1 @@
+This error occurs when using the `useRef` hook in React Native with a functional component.  The component might be unmounting before the callback function inside `useRef` has a chance to execute, resulting in a warning or error. This usually manifests when you try to access a ref's current value after the component has unmounted.
